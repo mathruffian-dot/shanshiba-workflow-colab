@@ -56,7 +56,7 @@ python cloud/colab_h3.py stop
 | 狀態 | **2026-10-10 在 Colab 實測**：H3 在 G4 上的成品與 RTX 5090 本機肉眼一致（PSNR 45.9 dB）；全套 smoke_test 在 Linux 上除 RTX VSR（Windows 限定）外全部通過 |
 | 速度 | G4 一支 90 格鏡頭 42 秒（≈ RTX 5090）；2 個 ComfyUI 錯開跑每小時約 123 支；從開機到能跑約 3.5–4 分鐘 |
 | 費用 | G4 每小時 8.90 運算單元；一支 30 鏡短片的 H3 約 3 單元 → 200 單元約可做 60 支 |
-| ⚠️ 授權 | Colab 的 G4 機房實測只在**美國或歐盟**，正是 MiniMax H3 授權排除的地區。**是否使用由你自行評估、風險自負**（詳見 [cloud/README.md](cloud/README.md)） |
+| ⚠️ 授權 | Colab 的 G4 機房實測只在**美國或歐盟**，正是 MiniMax H3 授權排除的地區。**工具照常使用這些機房、只顯示警語，風險由你自負**（詳見 [cloud/README.md](cloud/README.md)） |
 
 詳細：[cloud/README.md](cloud/README.md)（操作、實測數據、踩坑）、[docs/hardware.md](docs/hardware.md)
 
